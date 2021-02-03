@@ -36,6 +36,11 @@ public class DeviceRestController {
 		// TODO Auto-generated constructor stub
 		this.deviceRepository = deviceRepository;
 	}
+	@GetMapping(value = "/")
+	public String hello () throws FileNotFoundException, IOException {
+		return "Welcome to Rest API Server";
+	}
+	
 	
 	@GetMapping(value = "/all")
 	public List<Device> getAll() throws FileNotFoundException, IOException {
