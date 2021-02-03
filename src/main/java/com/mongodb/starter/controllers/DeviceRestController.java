@@ -22,8 +22,10 @@ import com.mongodb.starter.models.Device;
 import com.mongodb.starter.repositories.DeviceRepository;
 
 
+
+
 @RestController
-@RequestMapping(value = "/api/v1/")
+@RequestMapping(value = "/v1/")
 //@CrossOrigin("*")
 public class DeviceRestController {
 
