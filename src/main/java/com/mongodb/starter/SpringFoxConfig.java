@@ -22,10 +22,10 @@ public class SpringFoxConfig {
     }
 
     private ApiInfo info() {
-        return new ApiInfoBuilder().title("Quick start project")
-                                   .description("Quick start project using Java, Spring boot and MongoDB")
-                                   .contact(new Contact("Maxime Beugnet", "https://github.com/MaBeuLux88",
-                                                        "maxime.beugnet@gmail.com"))
+        return new ApiInfoBuilder().title("ITA Rest API")
+                                   .description("ITA Rest API")
+                                   .contact(new Contact("Marco Parra", "https://github.com/elvarondelacerveza",
+                                                        "marco.parra@softtek.com"))
                                    .version("1.0.0")
                                    .license("Apache License Version 2.0")
                                    .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
